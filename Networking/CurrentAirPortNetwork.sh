@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# Подключенная Wi-Fi сеть
 	device=`/usr/sbin/networksetup -listallhardwareports | grep -A 1 Wi-Fi | awk '/Device/{ print $2 }'` 
 	result=`/usr/sbin/networksetup -getairportnetwork $device | sed 's/Current Wi-Fi Network: //g'` 
 
