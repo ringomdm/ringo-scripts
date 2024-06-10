@@ -19,8 +19,8 @@ menuBar="false"
 fi
 
 if [ "$launchAgent" == "true" ] || [ "$menubar" == "true" ] || [ "indexingStatus" == "Indexing enabled." ]; then
-echo "<result>menuBar: $menuBar LaunchAgent: $launchAgent indexing status: $indexingStatus  -  Fail (Spotlight Enabled)</result>"
+echo "menuBar: $menuBar LaunchAgent: $launchAgent indexing status: $indexingStatus  -  Fail (Spotlight Enabled)"
 else
-echo "<result>Pass (Spotlight Disabled)</result>"
+echo "Pass (Spotlight Disabled)"
 fi
 	

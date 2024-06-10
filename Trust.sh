@@ -4,8 +4,8 @@ desiredResult="PermitRootLogin no"
 result=`cat /etc/ssh/sshd_config | grep -w "$desiredResult" | tail -1`
 
 if [ "$result" == "$desiredResult" ]; then
-echo "<result>Pass ($result)</result>"
+echo "Pass ($result)"
 else
-echo "<result>Fail ($result)</result>"
+echo "Fail ($result)"
 fi
 	
