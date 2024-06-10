@@ -1,13 +1,11 @@
 #!/bin/sh
-desiredValue="false"
-
-result=""
+#Энергосбережение. Ожидание подключения по сети
 tmpResult="`/usr/bin/pmset -g | grep -w womp | awk '{print $2}'`"
 if [ "$tmpResult" == "1" ]; then
-result="true"
+result="On"
 else
 if [ "$tmpResult" == "0" ]; then
-	result="false"
+	result="Of"
 else
 	if [ "$tmpResult" == "" ]; then
 		result="Domain or Key Not Found"
@@ -16,9 +14,4 @@ else
 	fi
 fi
 fi
-if [ "$result" == "$desiredValue" ]; then
-echo "Pass ($result)"
-else
-echo "Fail ($result)"
-fi
-	
+echo $result	

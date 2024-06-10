@@ -17,3 +17,6 @@
 # Security Reporting
 
 + **EnergySaverDisplaySleepTimer** Энергосбережение. Время отключения дислпея
++ **EnergySaverHardDiskSleep** Энергосбережение. Время отключения диска  
++ **EnergySaverWakeonLAN** Энергосбережение. Ожидание подключения по сети
++ **SpotlightStatus** Статус Spotlight

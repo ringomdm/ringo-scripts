@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#Статус Spotlight
 launchAgent=""
 menuBar=""
 indexingStatus=`/usr/bin/mdutil -s / | grep "Indexing"`
@@ -19,8 +19,8 @@ menuBar="false"
 fi
 
 if [ "$launchAgent" == "true" ] || [ "$menubar" == "true" ] || [ "indexingStatus" == "Indexing enabled." ]; then
-echo "menuBar: $menuBar LaunchAgent: $launchAgent indexing status: $indexingStatus  -  Fail (Spotlight Enabled)"
+echo "menuBar: $menuBar LaunchAgent: $launchAgent indexing status: $indexingStatus  -  Spotlight Enabled"
 else
-echo "Pass (Spotlight Disabled)"
+echo "Spotlight Disabled"
 fi
 	
