@@ -4,16 +4,16 @@
 
 # Networking
 
-**ActiveNetworkInterface** Определение активных сетевых интерфейсов
-**AirPortPower** Статус AirPort
-**CurrentAirPortNetwork** Подключенная Wi-Fi сеть
-**DNSServers** Ручные настройки DNS
-**Firewall** Статус фаервола
-**Hostname** Имя хоста
-**NetworkServicesList** Список сетевых устройств
-**SearchDomains** Поисковые домены
-**UseNetworkTimeServer** Статус автоматического обновления времени 
++ **ActiveNetworkInterface** Определение активных сетевых интерфейсов
++ **AirPortPower** Статус AirPort
++ **CurrentAirPortNetwork** Подключенная Wi-Fi сеть
++ **DNSServers** Ручные настройки DNS
++ **Firewall** Статус фаервола
++ **Hostname** Имя хоста
++ **NetworkServicesList** Список сетевых устройств
++ **SearchDomains** Поисковые домены
++ **UseNetworkTimeServer** Статус автоматического обновления времени 
 
 # Security Reporting
 
-**EnergySaverDisplaySleepTimer** Энергосбережение. Время отключения дислпея
++ **EnergySaverDisplaySleepTimer** Энергосбережение. Время отключения дислпея
