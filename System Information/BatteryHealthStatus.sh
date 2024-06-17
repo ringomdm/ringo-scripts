@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#Статус здоровья батареи
 result=`ioreg -r -c "AppleSmartBattery" | grep "PermanentFailureStatus" | awk '{print $3}' | sed s/\"//g`
 
 if [ "$result" == "1" ]; then
