@@ -1,4 +1,5 @@
 #!/bin/bash
+#Скачивание пакета
 # $4 — share type; "smb" or "webdav"
 # $5 — login
 # $6 — password

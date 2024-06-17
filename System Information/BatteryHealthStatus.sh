@@ -8,4 +8,4 @@ elif [ "$result" == "0" ]; then
 result="OK"
 fi
 
-echo "<result>$result</result>"
+echo "$result"

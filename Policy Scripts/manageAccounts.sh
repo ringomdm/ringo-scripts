@@ -1,4 +1,5 @@
 #!/bin/bash
+#Управление аккаунтом создание/удаление/сброс пароля  
 # $4 — mode: "create", "delete" or "resetPassword" — required
 # $5 — username — required
 # $6 — password — required if $4 is "create" or "resetPassword"

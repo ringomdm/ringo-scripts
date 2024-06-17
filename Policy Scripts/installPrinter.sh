@@ -1,4 +1,5 @@
 #!/bin/bash
+#Установка принтера
 # $4 — printer name — required
 # $5 — printer URI (e.g. lpd://10.10.10.10 or smb://prntsrv/printr in cases of AD-binded macs) — required
 # $6 - PPD file path

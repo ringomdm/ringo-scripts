@@ -1,4 +1,5 @@
 #!/bin/bash
+#Настройка доступа к Службе каталогов Active Directory
 # $1 — AD domain — required
 # $2 — connection username — required
 # $3 - connection password — required

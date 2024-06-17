@@ -1,4 +1,5 @@
 #!/bin/bash
+#Установка/удаление пароля прошивки
 # $4 — mode; "set" to set or reset the firmware password, "remove" to the firmware password — required
 # $5 - password — required if $4 is "set"
 

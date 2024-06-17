@@ -1,6 +1,7 @@
 #!/bin/sh
-
-desiredResult="PermitRootLogin no"
+#Проверка отключенного рут доступа по ssh
+#Укажите желаемый результат - desiredResult
+desiredResult="PermitRootLogin yes"
 result=`cat /etc/ssh/sshd_config | grep -w "$desiredResult" | tail -1`
 
 if [ "$result" == "$desiredResult" ]; then

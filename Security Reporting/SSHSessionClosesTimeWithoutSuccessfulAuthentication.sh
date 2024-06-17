@@ -1,4 +1,6 @@
 #!/bin/sh
+#Закрытие сессии по таймауту при неудачной регистрации
+#Желаемое значение
 desiredValue="2m"
 
 targetPath="/etc/ssh/sshd_config"
