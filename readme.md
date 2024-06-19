@@ -25,6 +25,7 @@
 + **manageAccounts** - Управление аккаунтом создание/удаление/сброс пароля 
 + **EnergySaverDisplaySleepSet** - Энергосбережение. Установка времени отключения дисплея
 + **EnergySaverWakeonLANSet** - Энергосбережение. Установка ожидания подключения по сети
++ **EnergySaverHardDiskSleepSet** - Энергосбережение. Установка времени отключения диска
 
 # Security Reporting
 
