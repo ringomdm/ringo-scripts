@@ -23,10 +23,11 @@
 + **installPrinter** - Установка принтера
 + **LastUser** - Последний залогиненный пользователь
 + **manageAccounts** - Управление аккаунтом создание/удаление/сброс пароля 
++ **EnergySaverDisplaySleepSet** - Энергосбережение. Установка времени отключения дисплея
 
 # Security Reporting
 
-+ **EnergySaverDisplaySleepTimer** - Энергосбережение. Время отключения дислпея
++ **EnergySaverDisplaySleepTimer** - Энергосбережение. Время отключения дисплея
 + **EnergySaverHardDiskSleep** - Энергосбережение. Время отключения диска  
 + **EnergySaverWakeonLAN** - Энергосбережение. Ожидание подключения по сети
 + **SpotlightStatus** - Статус Spotlight
