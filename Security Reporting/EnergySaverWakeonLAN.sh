@@ -5,7 +5,7 @@ if [ "$tmpResult" == "1" ]; then
 result="On"
 else
 if [ "$tmpResult" == "0" ]; then
-	result="Of"
+	result="Off"
 else
 	if [ "$tmpResult" == "" ]; then
 		result="Domain or Key Not Found"
